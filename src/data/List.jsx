@@ -67,5 +67,5 @@ export const messages = [
   "Te estoy pegando entonces el caleño prima jajajajaja",
   "Vos sos muy linda, hermosa, divina, dulce, simpática, inteligente, determinada, y mássssss",
   "La aprecio como las vacas, muuuuuuuuuuuuuuuucho",
-  // "Que tu serás para mi, y yo seré para ti",
+  "Que tu serás para mi, y yo seré para ti",
 ];
