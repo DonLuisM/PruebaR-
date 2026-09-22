@@ -68,4 +68,5 @@ export const messages = [
   "Vos sos muy linda, hermosa, divina, dulce, simpática, inteligente, determinada, y mássssss",
   "La aprecio como las vacas, muuuuuuuuuuuuuuuucho",
   "Que tu serás para mi, y yo seré para ti",
+  "Sos tan hermosa, y con ese saco rosado, cosotaaaaa",
 ];
