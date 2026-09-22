@@ -59,4 +59,13 @@ export const messages = [
   "Como usted me lo ha dicho. Me siento afortunado",
   "Esa determinación suya por hacerme revelar mis secretos y planes a futuro",
   "Yo ya se lo he dicho, pero de todas formas lo repito, me gusta mucho tu forma de ser",
+  "Me gusta mucho compartir contigo",
+  "Los primeros 4Km han sido de lo mejor sin duda alguna, ya ansío sumar más kilómetros contigo",
+  "... que yo me encargo de hacerte feliz",
+  "Yo no te puedo sacar de mi mente, pues te tengo presente",
+  "Que ya casi no te esté dando pena pedir las cosas, me hace sentir feliz",
+  "Te estoy pegando entonces el caleño prima jajajajaja",
+  "Vos sos muy linda, hermosa, divina, dulce, simpática, inteligente, determinada, y mássssss",
+  "La aprecio como las vacas, muuuuuuuuuuuuuuuucho",
+  // "Que tu serás para mi, y yo seré para ti",
 ];
