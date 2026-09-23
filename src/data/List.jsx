@@ -75,4 +75,5 @@ export const messages = [
   "Yo feliz de escucharte hablar tan profesionalmente, aunque no sepa mucho de medicina",
   "Eres luz Jasbleidy Posu",
   "Proverbios 3:15",
+  "Eres libre alberdio, albeiro 🥰",
 ];
