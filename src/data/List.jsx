@@ -69,5 +69,6 @@ export const messages = [
   "La aprecio como las vacas, muuuuuuuuuuuuuuuucho",
   "Que tu serás para mi, y yo seré para ti",
   "Sos tan hermosa, y con ese saco rosado, cosotaaaaa",
-  "Entre más pasa el tiempo, más me sigues gustando, incluso después de 6 meses"
+  "Entre más pasa el tiempo, más me sigues gustando, incluso después de 6 meses",
+  "No sabes cuánto deseo que esto funcione y que sea por mucho tiempo",
 ];
