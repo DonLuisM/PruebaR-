@@ -71,4 +71,7 @@ export const messages = [
   "Sos tan hermosa, y con ese saco rosado, cosotaaaaa",
   "Entre más pasa el tiempo, más me sigues gustando, incluso después de 6 meses",
   "No sabes cuánto deseo que esto funcione y que sea por mucho tiempo",
+  "Estoy orgulloso de todo lo que logras",
+  "Yo feliz de escucharte hablar tan profesionalmente, aunque no sepa mucho de medicina"
+  "
 ];
