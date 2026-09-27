@@ -3,7 +3,7 @@ import GradientText from "./Gradient.jsx";
 function Button({ onClick }) {
   return (
     <button
-      className="relative flex h-[20%] w-[80%] items-center justify-center overflow-hidden rounded-lg border border-[#F9C5D5] bg-[#FCE7F3] cursor-pointer sm:w-[65%] md:w-[30%] hover:-translate-y-2 transition-transform duration-300 hover:scale-105"
+      className="relative flex h-[20%] w-[80%] items-center justify-center overflow-hidden rounded-2xl border border-[#F9C5D5] bg-[#FCE7F3] cursor-pointer sm:w-[65%] md:w-[30%] hover:-translate-y-2 transition-transform duration-300 hover:scale-102"
       onClick={onClick}
     >
       <GradientText
