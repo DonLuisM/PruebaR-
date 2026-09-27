@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 import { FaHeartbeat, FaArrowLeft, FaArrowRight, FaBan } from "react-icons/fa";
 
 import AccordionGallery from "./Carrousel.jsx";
+import { a } from "motion/react-client";
 
-const API_URL = import.meta.env.VITE_API_URL;
+// const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = "http://127.0.0.1:8000";
 
 function ModalButton() {
   const isMobile = window.innerWidth <= 520;
@@ -125,7 +127,7 @@ function ModalButton() {
           onClick={() => setModal(false)}
         >
           <div
-            className="w-[94%] max-w-325 h-[80vh] bg-[rgba(246,185,204,0.5)] rounded-2xl p-3 sm:p-5 flex flex-col items-center justify-center overflow-hidden"
+            className={`w-[94%] max-w-325 ${isMobile ? "h-[90vh]" : "h-[80vh]"} bg-[rgba(246,185,204,0.5)] rounded-2xl p-3 sm:p-5 flex flex-col items-center justify-center overflow-hidden`}
             onClick={(e) => e.stopPropagation()}
           >
             {!token ? (
@@ -177,7 +179,7 @@ function ModalButton() {
                     parallax={0.5}
                     tilt={8}
                     stagger={0.06}
-                    height={isMobile ? 800 : 600}
+                    height={isMobile ? 850 : 600}
                     gap={10}
                     radius={16}
                     orientation="horizontal"
@@ -209,9 +211,20 @@ function ModalButton() {
               alt={selectedImage.label}
               className="max-w-full max-h-[85vh] object-contain rounded-2xl drop-shadow-[0_2px_6px_rgba(255,255,255,0.35)]"
             />
-            <p className="text-white font-semibold text-xl italic mt-3 text-center tracking-wide drop-shadow-lg transition-all duration-300 hover:scale-105">
-              {selectedImage.label}
-            </p>
+            {selectedImage.id === "I'd_still_choose_you" ? (
+              <a
+                href="https://youtu.be/b-XkexlmElM"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white font-semibold text-xl italic mt-3 text-center tracking-wide drop-shadow-lg transition-all duration-300 hover:scale-105"
+              >
+                {selectedImage.label}
+              </a>
+            ) : (
+              <p className="text-white font-semibold text-xl italic mt-3 text-center tracking-wide drop-shadow-lg transition-all duration-300 hover:scale-105">
+                {selectedImage.label}
+              </p>
+            )}
 
             <div className="flex gap-3">
               <button

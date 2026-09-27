@@ -76,4 +76,5 @@ export const messages = [
   "Eres luz Jasbleidy Posu",
   "Proverbios 3:15",
   "Eres libre alberdio, albeiro 🥰",
+  "Mentalmente me encantás, físicamente sos hermosa y la atracción que siento por vos también es muy fuerte",
 ];
