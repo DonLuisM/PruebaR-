@@ -65,6 +65,7 @@ const AccordionGallery = ({
   const [active, setActive] = useState(
     Math.min(Math.max(defaultIndex, 0), count - 1),
   );
+  const [isTouch, setIsTouch] = useState(false);
 
   const prefersReduced =
     typeof window !== "undefined" && window.matchMedia
@@ -191,6 +192,20 @@ const AccordionGallery = ({
     firstRunRef.current = false;
   }, [applyLayout]);
 
+  useEffect(() => {
+    const checkTouch = () => {
+      setIsTouch(
+        window.matchMedia("(hover: none) and (pointer: coarse)").matches,
+      );
+    };
+
+    checkTouch();
+
+    window.addEventListener("resize", checkTouch);
+
+    return () => window.removeEventListener("resize", checkTouch);
+  }, []);
+
   useEffect(
     () => () => {
       tlRef.current?.kill();
@@ -199,7 +214,9 @@ const AccordionGallery = ({
   );
 
   const handleEnter = (i) => {
-    if (trigger === "hover") setActive(i);
+    if (!isTouch && trigger === "hover") {
+      setActive(i);
+    }
   };
 
   const handleClick = (i, e) => {
@@ -208,6 +225,7 @@ const AccordionGallery = ({
       setActive(i);
       return;
     }
+
     if (onImageClick) {
       e.preventDefault();
       onImageClick(items[i]);
@@ -250,7 +268,11 @@ const AccordionGallery = ({
             }}
             href={item.link || undefined}
             onClick={(e) => handleClick(i, e)}
-            onMouseEnter={() => handleEnter(i)}
+            onMouseEnter={() => {
+              if (!isTouch) {
+                handleEnter(i);
+              }
+            }}
             onFocus={() => setActive(i)}
             onKeyDown={(e) => handleKeyDown(i, e)}
             role="listitem"
