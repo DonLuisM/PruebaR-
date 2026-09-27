@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { FaHeartbeat, FaArrowLeft, FaArrowRight, FaBan } from "react-icons/fa";
 
 import AccordionGallery from "./Carrousel.jsx";
-import { a } from "motion/react-client";
 
 // const API_URL = import.meta.env.VITE_API_URL;
 const API_URL = "http://127.0.0.1:8000";
