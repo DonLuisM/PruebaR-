@@ -126,7 +126,7 @@ def get_gallery(
         {
             "id": "Future...",
             "label": "Quiero muchos más momentos contigo",
-            "public_id": "nuestra-historia/futuroJPB"
+            "public_id": "nuestra-historia/futuroJPB1"
         }
     ]
 
@@ -144,8 +144,8 @@ def get_gallery(
     }
 
 # result = cloudinary.uploader.upload(
-#     "futuroJPB.jpeg",
+#     "futuroJPB1.jpeg",
 #     type="authenticated",
 #     folder="nuestra-historia",
-#     public_id="futuroJPB",
+#     public_id="futuroJPB1",
 # )

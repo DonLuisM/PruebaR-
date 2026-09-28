@@ -3,8 +3,8 @@ import { FaHeartbeat, FaArrowLeft, FaArrowRight, FaBan } from "react-icons/fa";
 
 import AccordionGallery from "./Carrousel.jsx";
 
-const API_URL = import.meta.env.VITE_API_URL;
-// const API_URL = "http://127.0.0.1:8000";
+// const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = "http://127.0.0.1:8000";
 
 function ModalButton() {
   const isMobile = window.innerWidth <= 520;
