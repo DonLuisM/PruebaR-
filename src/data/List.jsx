@@ -77,4 +77,11 @@ export const messages = [
   "Proverbios 3:15",
   "Eres libre alberdio, albeiro 🥰",
   "Mentalmente me encantás, físicamente sos hermosa y la atracción que siento por vos también es muy fuerte",
+  "La sensación de abrazarte y sentir tu aroma, me encanta",
+  "Me gusta la persona en la que me convierto cuando estoy cerca de ti",
+  "Me encatas tuuuuuuu",
+  "Estamos en el mes 10/10 para el cumpleaños de la lindota",
+  "Siempre que leas este mensaje, recuerda que te pienso mucho",
+  "Está semana te he extrañado mucho mi Jas",
+  "Que los chismosos se queden con la duda, lo nuestro es demasiado bonito para explicarlo"
 ];
