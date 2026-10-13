@@ -83,5 +83,12 @@ export const messages = [
   "Estamos en el mes 10/10 para el cumpleaños de la lindota",
   "Siempre que leas este mensaje, recuerda que te pienso mucho",
   "Está semana te he extrañado mucho mi Jas",
-  "Que los chismosos se queden con la duda, lo nuestro es demasiado bonito para explicarlo"
+  "Que los chismosos se queden con la duda, lo nuestro es demasiado bonito para explicarlo",
+  "Cuando me incluyes en tus planes, lo aprecio mucho",
+  "Cuando me dices las palabras cursis, me encanta escucharlas y me hace enamorar más de ti",
+  "Cuando me repetiste la palabra en el uber, caí derretido",
+  "Recuerda siempre: cuando estes feliz o triste, ahi estaré para ti",
+  "Será que soy muy embelequero?",
+  "Jas, vos me encantas mucho oís",
+  
 ];
