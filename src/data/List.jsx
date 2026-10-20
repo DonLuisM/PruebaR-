@@ -91,6 +91,14 @@ export const messages = [
   "Será que soy muy embelequero?",
   "Jas, vos me encantas mucho oís",
   "Adoro verte reir, sonreir",
-  "Me encanta darte flores y siempre sorprenderte"
+  "Me encanta darte flores, siempre sorprenderte y ver tu carita",
+  "Si algo hizo especial el concierto, fue acompañarte y verte siempre feliz",
+  "Adoro todo lo que hacemos juntos",
+  "Adoro tenerte a mi lado",
+  "Adoro escuchar tu día a día",
+  "Adoro ser ese alguien que llamas para conversar",
+  "Me gusto mucho acompañarte a comprar ropa y verte modelar",
+  "No se que tiene escrito el destino, pero quiero que seas tú",
+  "Me encanta los recuerdos que hemos construido",
   
 ];
