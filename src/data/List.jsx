@@ -90,5 +90,7 @@ export const messages = [
   "Recuerda siempre: cuando estes feliz o triste, ahi estaré para ti",
   "Será que soy muy embelequero?",
   "Jas, vos me encantas mucho oís",
+  "Adoro verte reir, sonreir",
+  "Me encanta darte flores y siempre sorprenderte"
   
 ];
