@@ -80,7 +80,7 @@ export const messages = [
   "La sensación de abrazarte y sentir tu aroma, me encanta",
   "Me gusta la persona en la que me convierto cuando estoy cerca de ti",
   "Me encatas tuuuuuuu",
-  "Estamos en el mes 10/10 para el cumpleaños de la lindota",
+  "Estamos en el mes 10/10 para el cumpleaños de la más linda",
   "Siempre que leas este mensaje, recuerda que te pienso mucho",
   "Está semana te he extrañado mucho mi Jas",
   "Que los chismosos se queden con la duda, lo nuestro es demasiado bonito para explicarlo",
