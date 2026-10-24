@@ -124,6 +124,11 @@ def get_gallery(
             "public_id": "nuestra-historia/I'd_still_choose_you"
         },
         {
+            "id": "Our First Concert",
+            "label": "Nuestro primer concierto juntos",
+            "public_id": "nuestra-historia/concierto"
+        },
+        {
             "id": "Future...",
             "label": "Quiero muchos más momentos contigo",
             "public_id": "nuestra-historia/futuroJPB1"
@@ -144,8 +149,8 @@ def get_gallery(
     }
 
 # result = cloudinary.uploader.upload(
-#     "futuroJPB1.jpeg",
+#     "Concierto.jpeg",
 #     type="authenticated",
 #     folder="nuestra-historia",
-#     public_id="futuroJPB1",
+#     public_id="concierto",
 # )
