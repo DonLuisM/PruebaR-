@@ -104,4 +104,8 @@ export const messages = [
   "Me encanta los recuerdos que hemos construido",
   "Cuando me mandas fotos de tu carita o con los outfits, me muero totalllllll",
   "Aquel Nap ZZZZ: 3:45-4:12",
+  "Cada vez que veas este mensaje, recuerda que te aprecio mucho mi Jas",
+  "Me encantan tus besos",
+  "Estoy muy enamorado de vos",
+  "Siempre voy a querer verte feliz",
 ];
